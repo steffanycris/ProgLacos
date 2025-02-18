@@ -3,7 +3,7 @@
 inteiro das pessoas que são do sexo masculino e possuem 21 anos ou mais.
 '''
 
-for cont in range(1,20):
+for cont in range(1,21):
     nome = input("Qual o seu nome completo? ")
     idade = int(input("Quantos anos você tem? "))
     sexo = input("Qual o seu sexo? ")
@@ -11,4 +11,4 @@ for cont in range(1,20):
     if (idade >= 21) and (sexo == "Masculino"):
         print(nome)
 
-    cont = cont+1
+    
